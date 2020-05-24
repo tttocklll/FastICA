@@ -19,6 +19,8 @@ where
 where
 <img src="https://latex.codecogs.com/gif.latex?g(x)&space;=&space;tanh(x)" />
 5. Normalize new **w**
-<img stc="https://latex.codecogs.com/gif.latex?\mbox{\boldmath&space;$w$}_n=\frac{\mbox{\boldmath&space;$w$}_n^&plus;}{\left&space;\|&space;\mbox{\boldmath&space;$w$}_n^&plus;&space;\right&space;\|}" />
+<img src="https://latex.codecogs.com/gif.latex?\mbox{\boldmath&space;$w$}_n=\frac{\mbox{\boldmath&space;$w$}_n^&plus;}{\left&space;\|&space;\mbox{\boldmath&space;$w$}_n^&plus;&space;\right&space;\|}" />
 6. While **w** has not converged, return to 4. Check the convergence by computing
 <img src="https://latex.codecogs.com/gif.latex?\left&space;|&space;\mbox{\boldmath&space;$w$}_{n,old}^T\mbox{\boldmath&space;$w$}_{n,new}&space;\right&space;|\simeq&space;1" />
+7. Compute the dot product of **w** and **x** and you get **S**
+
