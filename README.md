@@ -25,3 +25,4 @@ where
 7. Compute the dot product of **w** and **x** and you get **S**
 
 ## Example
+<img src="myplot.png" />
