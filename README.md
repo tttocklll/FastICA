@@ -14,7 +14,7 @@ where
 3. Choose an initial value of **w** randomly
 where
 <img src="https://latex.codecogs.com/gif.latex?W&space;=&space;[\mbox{\boldmath&space;$w$}_1,&space;\mbox{\boldmath&space;$w$}_2,&space;\cdots,&space;\mbox{\boldmath&space;$w$}_n]" />
-4. Compute the new **w**
+4. Compute new **w**
 <img src="https://latex.codecogs.com/gif.latex?\mbox{\boldmath&space;$w$}_n^&plus;&space;=&space;E[\tilde{\mbox{\boldmath&space;$x$}}g(\mbox{\boldmath&space;$w$}_n^T\tilde{\mbox{\boldmath&space;$x$}})]-E[g^{\prime}(\mbox{\boldmath&space;$w$}_n^T\tilde{\mbox{\boldmath&space;$x$}})]\mbox{\boldmath&space;$w$}_n" />
 where
 <img src="https://latex.codecogs.com/gif.latex?g(x)&space;=&space;tanh(x)" />
@@ -24,3 +24,4 @@ where
 <img src="https://latex.codecogs.com/gif.latex?\left&space;|&space;\mbox{\boldmath&space;$w$}_{n,old}^T\mbox{\boldmath&space;$w$}_{n,new}&space;\right&space;|\simeq&space;1" />
 7. Compute the dot product of **w** and **x** and you get **S**
 
+## Example
